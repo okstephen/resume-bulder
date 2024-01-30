@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESUME BUILDER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="getData">
+        <h1>Enter your Details :</h1>
+        <input type="text" id="name" placeholder="Enter Your Name">
+        <br> <br>
+        <input type="text" id="jobProfile" placeholder="Enter Your Job Profile">
+        <br> <br>
+        <textarea name="" id="experience" cols="30" rows="7" placeholder="Enter Your Experience"></textarea>
+        <br><br>
+        <textarea name="" id="projects" cols="30" rows="7" placeholder="Enter Your Projects"></textarea>
+        <br><br>
+        <textarea name="" id="edu" cols="30" rows="7" placeholder="Enter Your Qualifications/"></textarea>
+        <textarea name="" id="skill" cols="30" rows="7" placeholder="Enter Your Skills"></textarea>
+        <br><br>
+        <input type="tel" id="contact" placeholder="Enter Your Contact Number">
+        <input type="email" placeholder="Enter Your Email Id" id="mail"><br><br>
+    </form>
+    <div id="resume"></div>
+
+    <input type="button" value="Preview" onclick="toggle()" id="generate">
+    <div id="print-btn"></div>
+    <button id="submit" style="display: none;">Download PDF File</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
